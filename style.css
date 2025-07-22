@@ -189,8 +189,6 @@ section .album {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 600px;
-  height: 100%;
 }
 
 section .seasons {
@@ -231,6 +229,7 @@ section .album .photo img {
 section .album .photo h4 {
   font-weight: 400;
   margin: 0;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
