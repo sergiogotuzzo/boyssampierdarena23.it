@@ -87,6 +87,7 @@ section h1 {
   font-size: 50px;
   margin: 30px;
   font-weight: bold;
+  text-align: center;
 }
 
 section h4 {
@@ -128,7 +129,7 @@ section ul.contacts li i {
 
 section img#tesseramento {
   width: 600px;
-  height: 350px;
+  height: 360px;
   margin: 20px;
 }
 
@@ -232,6 +233,16 @@ section .album .photo h4 {
   width: 100%;
 }
 
+@media (max-width: 1024px) {
+  section .container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  section .album .season .photos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   header img {
     margin: 0;
@@ -284,6 +295,10 @@ section .album .photo h4 {
     font-size: 20px;
   }
 
+  section h4 {
+    width: 600px;
+  }
+
   section .album .season .photos {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -297,28 +312,65 @@ section .album .photo h4 {
     width: 450px;
     height: 350px;
   }
-}
 
-@media (max-width: 1252px) {
-  section .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 948px) {
   section .container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (max-width: 656px) {
+@media (max-width: 600px) {
   section h4 {
     width: 500px;
   }
+
+  section img#tesseramento {
+    width: 500px;
+    height: 300px;
+  }
+
+  section .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
-@media (max-width: 512px) {
+@media (max-width: 480px) {
   section h4 {
     width: 400px;
+  }
+
+  section img#tesseramento {
+    width: 400px;
+    height: 240px;
+  }
+
+  section .album .photo {
+    width: 350px;
+    height: 250px;
+  }
+
+  section .album .photo img {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  section h4 {
+    width: 300px;
+  }
+
+  section img#tesseramento {
+    width: 300px;
+    height: 180px;
+  }
+
+  section .album .photo {
+    width: 250px;
+    height: 150px;
+  }
+
+  section .album .photo img {
+    width: 250px;
+    height: 150px;
   }
 }
