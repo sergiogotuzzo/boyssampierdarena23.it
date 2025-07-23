@@ -320,12 +320,12 @@ section .album .photo h4 {
 
 @media (max-width: 600px) {
   section h4 {
-    width: 400px;
+    width: 480px;
   }
 
   section img#tesseramento {
-    width: 400px;
-    height: 240px;
+    width: 480px;
+    height: 288px;
   }
 
   section .container {
@@ -335,12 +335,12 @@ section .album .photo h4 {
 
 @media (max-width: 480px) {
   section h4 {
-    width: 300px;
+    width: 320px;
   }
 
   section img#tesseramento {
-    width: 300px;
-    height: 180px;
+    width: 320px;
+    height: 192px;
   }
 
   section .album .photo {
