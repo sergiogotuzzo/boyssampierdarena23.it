@@ -366,6 +366,14 @@ section .album .photo h4 {
     width: 350px;
     height: 250px;
   }
+
+  section ul.contacts li {
+    font-size: 25px;
+  }
+
+  section ul.contacts li i {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -390,5 +398,13 @@ section .album .photo h4 {
   section .album .photo img {
     width: 250px;
     height: 150px;
+  }
+
+  section ul.contacts li {
+    font-size: 20px;
+  }
+
+  section ul.contacts li i {
+    font-size: 25px;
   }
 }
