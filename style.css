@@ -368,11 +368,11 @@ section .album .photo h4 {
   }
 
   section ul.contacts li {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   section ul.contacts li i {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
@@ -398,13 +398,5 @@ section .album .photo h4 {
   section .album .photo img {
     width: 250px;
     height: 150px;
-  }
-
-  section ul.contacts li {
-    font-size: 20px;
-  }
-
-  section ul.contacts li i {
-    font-size: 25px;
   }
 }
