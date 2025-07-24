@@ -319,6 +319,16 @@ section .album .photo h4 {
 }
 
 @media (max-width: 600px) {
+  header {
+    height: 120px;
+    background-size: cover;
+  }
+
+  header img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+  }
+
   section h4 {
     width: 480px;
   }
