@@ -338,6 +338,14 @@ section .album .photo h4 {
     height: 288px;
   }
 
+  section .album .season h2 {
+    margin: 0;
+  }
+
+  section .album .photo {
+    margin: 25px 0;
+  }
+
   section .container {
     grid-template-columns: repeat(1, 1fr);
   }
