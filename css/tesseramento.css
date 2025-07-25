@@ -1,0 +1,26 @@
+section img {
+  width: 600px;
+  height: 360px;
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+  section img {
+    width: 480px;
+    height: 288px;
+  }
+}
+
+@media (max-width: 480px) {
+  section img {
+    width: 320px;
+    height: 192px;
+  }
+}
+
+@media (max-width: 320px) {
+  section img {
+    width: 200px;
+    height: 120px;
+  }
+}
