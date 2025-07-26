@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 section ul {
   list-style-type: square;
 }
